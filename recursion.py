@@ -8,5 +8,5 @@ def factorial(x):
         return (x * factorial(x-1))
 
 
-num = 3
-print("The factorial of", num, "is", factorial(num))
+input_number = 3
+print("The factorial of", input_number, "is: ", factorial(input_number))
